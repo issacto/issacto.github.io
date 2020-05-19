@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Issac To</title>
+</head>
+<!-- This is a comment-->
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<div class="navbar">
+  <a href="secondpage.html">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+
+
+<body>
+
+<h1>Issac's Blog</h1>
+<p>This is To Kin Wai.</p>
+
+
+
+
+<img src="issac.jpg" alt="Girl in a jacket" width="200" height="200">
+<p> </p>
+
+<p>  Halo there! I'm a first year student at King's College London. Welcome to my page </p>
+<p>  Welcome to my page </p>
+<button onclick="window.location.href = 'https://www.facebook.com/issac.to.9';">
+Come visit my FB!
+</button>
+
+<br></br>
+<p>Do you wanna contact me? Please leave your name here and I will contact you!</P>
+<button onclick="myFunction()">Click!</button>
+
+<br></br>
+<br></br>
+<br></br>
+
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name", "Harry Potter");
+  var myAge = prompt("FacebookID","")
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Thank you " + person + "! I will contact you soon";
+  }
+
+  const rows = [
+    ["name1", "city1", "some other info"],
+    ["name2", "city2", "more info"]
+  ];
+
+  let csvContent = "data:text/csv;charset=utf-8,"
+    + rows.map(e => e.join(",")).join("\n");
+
+var encodedUri = encodeURI(csvContent);
+var link = document.createElement("a");
+link.setAttribute("href", encodedUri);
+link.setAttribute("download", "my_data.csv");
+document.body.appendChild(link); // Required for FF
+
+link.click();
+}
+</script>
+
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<table style="width:75%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+    <th>Somemorethings</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+<br>  </br>
+
+</body>
+</html>
