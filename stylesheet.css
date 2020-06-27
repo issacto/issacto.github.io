@@ -6,6 +6,8 @@ body {
 h1 {
   font-size: 60px;
   font-weight: bold;
+  color: white;
+  text-align: center;
 }
 img {
   display: block;
@@ -15,11 +17,6 @@ img {
   height: auto;
 }
 
-h1 {
- color: white;
- text-align: center;
- font: italic 200% fantasy;
-}
 
 .flex-container2 {
   display: flex;
