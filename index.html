@@ -11,11 +11,25 @@
   <a href="https://issacto.github.io#sectionSports">Sports</a>
   <a href="https://issacto.github.io#sectionMusic">Music</a>
   <a href="https://issacto.github.io#sectionAbout">About</a>
-  <a href="https://issacto.github.io#sectionAbout">Talk with AI</a>
 </div>
 
 
+
 <body>
+<button class="open-button" onclick="openForm()">Chat</button>
+<script>
+function openForm() {
+  document.getElementById("chatbot").style.display = "block";
+}
+</script>
+  <div class ="sticky" id = "chatbot">
+    <iframe
+        allow="microphone;"
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/db4bd1cb-85ef-4d94-8fa1-c4f791a8604e">
+    </iframe>
+  </div>
 
 <h1 style="font-family:verdana;"> Welcome to My Website</h1>
 
@@ -98,16 +112,7 @@
 <br></br>
 
 
-<div class="flex-container" id = "sectionTalk">
 
-  <iframe
-      allow="microphone;"
-      width="350"
-      height="430"
-      src="https://console.dialogflow.com/api-client/demo/embedded/db4bd1cb-85ef-4d94-8fa1-c4f791a8604e">
-  </iframe>
-
-</div>
 
 <br></br>
 <div class ="flex-container4">

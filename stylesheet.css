@@ -18,6 +18,27 @@ img {
 }
 
 
+.sticky {
+  display: none;
+  position: fixed;
+     bottom: 20px;
+     right: 20px;
+}
+.open-button {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+}
+
+
+
 .flex-container2 {
   display: flex;
   justify-content: center;
