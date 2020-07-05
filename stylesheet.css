@@ -124,14 +124,25 @@ align-items: center;
   font-size: 25px;
 
 }
+.navFlexContainter{
+  display:flex;
+  height:30px;
+  position:fixed;
+  right: 0;
 
+
+}
 .navbar {
   overflow: hidden;
+  height = 30px;
+
+
+
+
 }
 
 .navbar a {
-  float: right;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -163,7 +174,7 @@ align-items: center;
 .cscontainer{
   display: flex;
   justify-content: center;
-  height: 500px;
+  height: 600px;
   flex-direction: column;
   align-items: center;
 }
