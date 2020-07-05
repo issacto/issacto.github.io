@@ -21,8 +21,8 @@ img {
 .sticky {
   display: none;
   position: fixed;
-     bottom: 20px;
-     right: 20px;
+  bottom: 20px;
+  right: 20px;
 }
 .open-button {
   background-color: black;
@@ -47,9 +47,9 @@ img {
   align-items: center;
   height: 900px
   -webkit-flex-align: center;
--ms-flex-align: center;
--webkit-align-items: center;
-align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 
@@ -71,7 +71,7 @@ align-items: center;
   margin: 7px;
   line-height: 40px;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
 }
 .flex-container2 {
   display: flex;
@@ -174,14 +174,27 @@ align-items: center;
 .cscontainer{
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 800px;
   flex-direction: column;
   align-items: center;
+
 }
 .csinsidecontainer {
   display: flex;
   justify-content: center;
+  height: 200px;
+  width: 1100px;
+
+}
+.csinsidecontainer2 {
+  display: flex;
+  justify-content: center;
   height: 400px;
+  width: 1100px;
+  text-align:center;
+  margin: 7px;
+  line-height: 40px;
+  font-size:25px;
 
 }
 .csinsidecontainer > div {
