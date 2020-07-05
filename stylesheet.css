@@ -69,9 +69,9 @@ align-items: center;
   color: white;
   width: 1100px;
   margin: 7px;
-  text-align: center;
   line-height: 40px;
   font-size: 25px;
+  text-align: left;
 }
 .flex-container2 {
   display: flex;
@@ -85,6 +85,7 @@ align-items: center;
   text-align: center;
   line-height: 40px;
   font-size: 25px;
+  text-align: left;
 }
 .flex-container3 {
   display: flex;
@@ -95,14 +96,15 @@ align-items: center;
   color: white;
   width: 1100px;
   margin: 7px;
-  text-align: center;
   line-height: 40px;
   font-size: 25px;
+  text-align: left;
 }
 .flex-container {
   display: flex;
   justify-content: center;
   height: 1100px;
+  text-align: left;
 
 }
 .flex-container iframe{
@@ -146,6 +148,6 @@ align-items: center;
   color: white;
   width: 100px;
   margin: 7px;
-  text-align: center;
+  text-align: left;
 
 }
