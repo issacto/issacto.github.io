@@ -1,5 +1,5 @@
 body {
- background-color: #535353;
+ background-color: rgb(50, 115, 220) ;
  color: white;
 }
 
@@ -87,6 +87,7 @@ img {
   font-size: 25px;
   text-align: left;
 }
+
 .flex-container3 {
   display: flex;
   justify-content: center;
@@ -105,16 +106,14 @@ img {
   justify-content: center;
   height: 1100px;
   text-align: left;
-
 }
+
 .flex-container iframe{
     width: 1100px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-
 }
-
 .flex-container > div {
   color: white;
   width: 1100px;
@@ -174,7 +173,7 @@ align-items: center;
 .cscontainer{
   display: flex;
   justify-content: center;
-  height: 800px;
+  height: 600px;
   flex-direction: column;
   align-items: center;
 
@@ -182,21 +181,26 @@ align-items: center;
 .csinsidecontainer {
   display: flex;
   justify-content: center;
-  height: 200px;
-  width: 1100px;
+  height: 900px;
+  width: 1400px;
 
 }
-.csinsidecontainer2 {
+
+.cscontainer2 {
   display: flex;
   justify-content: center;
-  height: 400px;
-  width: 1100px;
-  text-align:center;
-  margin: 7px;
-  line-height: 40px;
-  font-size:25px;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
 
+}
+.cscontainer2 iframe{
+    width: 1100px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .csinsidecontainer > div {
   width: 366px;
+  background-image: none;
 }
