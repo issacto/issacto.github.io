@@ -37,21 +37,19 @@ img {
   width: 350px;
 }
 .file-container7{
-  display: flex;
   justify-content: center;
-  width:100%
+  width:100%;
 
 }
 .flex-container7 > div {
-  background-color: #8C92AC;
   align-items: center;
+  background-color: #9A93EC;
   height: 900px
   -webkit-flex-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
 }
-
 
 .flex-container5 {
   display: flex;
