@@ -200,3 +200,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+.flex-container11{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
