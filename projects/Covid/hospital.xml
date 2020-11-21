@@ -1,0 +1,1577 @@
+<Document>
+  <length>224</length>
+  <maxPageLimit>2500</maxPageLimit>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-11-05</date>
+    <hospitalCases>12949</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-11-04</date>
+    <hospitalCases>13033</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-11-03</date>
+    <hospitalCases>12997</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-11-02</date>
+    <hospitalCases>12379</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-11-01</date>
+    <hospitalCases>11546</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-31</date>
+    <hospitalCases>11611</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-30</date>
+    <hospitalCases>11197</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-29</date>
+    <hospitalCases>11023</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-28</date>
+    <hospitalCases>10797</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-27</date>
+    <hospitalCases>10410</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-26</date>
+    <hospitalCases>9611</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-25</date>
+    <hospitalCases>9309</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-24</date>
+    <hospitalCases>8823</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-23</date>
+    <hospitalCases>8479</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-22</date>
+    <hospitalCases>7964</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-21</date>
+    <hospitalCases>7810</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-20</date>
+    <hospitalCases>7545</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-19</date>
+    <hospitalCases>7028</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-18</date>
+    <hospitalCases>6543</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-17</date>
+    <hospitalCases>6274</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-16</date>
+    <hospitalCases>6034</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-15</date>
+    <hospitalCases>5689</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-14</date>
+    <hospitalCases>5393</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-13</date>
+    <hospitalCases>5046</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-12</date>
+    <hospitalCases>4758</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-11</date>
+    <hospitalCases>4481</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-10</date>
+    <hospitalCases>4180</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-09</date>
+    <hospitalCases>3990</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-08</date>
+    <hospitalCases>3915</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-07</date>
+    <hospitalCases>3740</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-06</date>
+    <hospitalCases>3491</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-05</date>
+    <hospitalCases>3228</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-04</date>
+    <hospitalCases>2923</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-03</date>
+    <hospitalCases>2744</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-02</date>
+    <hospitalCases>2603</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-10-01</date>
+    <hospitalCases>2491</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-30</date>
+    <hospitalCases>2430</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-29</date>
+    <hospitalCases>2324</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-28</date>
+    <hospitalCases>2306</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-27</date>
+    <hospitalCases>2095</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-26</date>
+    <hospitalCases>1946</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-25</date>
+    <hospitalCases>1929</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-24</date>
+    <hospitalCases>1762</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-23</date>
+    <hospitalCases>1657</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-22</date>
+    <hospitalCases>1578</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-21</date>
+    <hospitalCases>1504</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-20</date>
+    <hospitalCases>1349</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-19</date>
+    <hospitalCases>1251</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-18</date>
+    <hospitalCases>1175</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-17</date>
+    <hospitalCases>1119</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-16</date>
+    <hospitalCases>1059</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-15</date>
+    <hospitalCases>1030</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-14</date>
+    <hospitalCases>940</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-13</date>
+    <hospitalCases>801</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-12</date>
+    <hospitalCases>771</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-11</date>
+    <hospitalCases>737</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-10</date>
+    <hospitalCases>915</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-09</date>
+    <hospitalCases>895</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-08</date>
+    <hospitalCases>869</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-07</date>
+    <hospitalCases>875</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-06</date>
+    <hospitalCases>790</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-05</date>
+    <hospitalCases>784</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-04</date>
+    <hospitalCases>789</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-03</date>
+    <hospitalCases>782</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-02</date>
+    <hospitalCases>768</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-09-01</date>
+    <hospitalCases>828</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-31</date>
+    <hospitalCases>821</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-30</date>
+    <hospitalCases>798</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-29</date>
+    <hospitalCases>796</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-28</date>
+    <hospitalCases>769</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-27</date>
+    <hospitalCases>787</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-26</date>
+    <hospitalCases>776</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-25</date>
+    <hospitalCases>793</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-24</date>
+    <hospitalCases>818</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-23</date>
+    <hospitalCases>812</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-22</date>
+    <hospitalCases>885</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-21</date>
+    <hospitalCases>832</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-20</date>
+    <hospitalCases>866</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-19</date>
+    <hospitalCases>868</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-18</date>
+    <hospitalCases>892</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-17</date>
+    <hospitalCases>919</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-16</date>
+    <hospitalCases>916</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-15</date>
+    <hospitalCases>911</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-14</date>
+    <hospitalCases>932</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-13</date>
+    <hospitalCases>944</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-12</date>
+    <hospitalCases>937</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-11</date>
+    <hospitalCases>965</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-10</date>
+    <hospitalCases>1012</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-09</date>
+    <hospitalCases>909</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-08</date>
+    <hospitalCases>934</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-07</date>
+    <hospitalCases>1013</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-06</date>
+    <hospitalCases>1081</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-05</date>
+    <hospitalCases>1113</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-04</date>
+    <hospitalCases>1137</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-03</date>
+    <hospitalCases>1167</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-02</date>
+    <hospitalCases>1167</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-08-01</date>
+    <hospitalCases>1211</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-31</date>
+    <hospitalCases>1194</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-30</date>
+    <hospitalCases>1243</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-29</date>
+    <hospitalCases>1264</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-28</date>
+    <hospitalCases>1284</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-27</date>
+    <hospitalCases>1280</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-26</date>
+    <hospitalCases>1294</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-25</date>
+    <hospitalCases>1265</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-24</date>
+    <hospitalCases>1354</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-23</date>
+    <hospitalCases>1451</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-22</date>
+    <hospitalCases>1643</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-21</date>
+    <hospitalCases>1517</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-20</date>
+    <hospitalCases>1608</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-19</date>
+    <hospitalCases>1621</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-18</date>
+    <hospitalCases>1656</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-17</date>
+    <hospitalCases>1681</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-16</date>
+    <hospitalCases>1697</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-15</date>
+    <hospitalCases>1838</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-14</date>
+    <hospitalCases>1868</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-13</date>
+    <hospitalCases>1964</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-12</date>
+    <hospitalCases>1955</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-11</date>
+    <hospitalCases>1947</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-10</date>
+    <hospitalCases>2095</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-09</date>
+    <hospitalCases>2180</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-08</date>
+    <hospitalCases>2259</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-07</date>
+    <hospitalCases>2398</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-06</date>
+    <hospitalCases>2500</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-05</date>
+    <hospitalCases>2553</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-04</date>
+    <hospitalCases>2592</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-03</date>
+    <hospitalCases>2724</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-02</date>
+    <hospitalCases>2848</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-07-01</date>
+    <hospitalCases>2969</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-30</date>
+    <hospitalCases>3150</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-29</date>
+    <hospitalCases>3495</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-28</date>
+    <hospitalCases>3314</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-27</date>
+    <hospitalCases>3290</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-26</date>
+    <hospitalCases>3367</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-25</date>
+    <hospitalCases>3589</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-24</date>
+    <hospitalCases>3737</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-23</date>
+    <hospitalCases>3846</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-22</date>
+    <hospitalCases>3965</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-21</date>
+    <hospitalCases>3902</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-20</date>
+    <hospitalCases>3930</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-19</date>
+    <hospitalCases>4082</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-18</date>
+    <hospitalCases>4219</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-17</date>
+    <hospitalCases>4348</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-16</date>
+    <hospitalCases>4488</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-15</date>
+    <hospitalCases>4487</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-14</date>
+    <hospitalCases>4517</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-13</date>
+    <hospitalCases>4518</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-12</date>
+    <hospitalCases>4659</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-11</date>
+    <hospitalCases>4728</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-10</date>
+    <hospitalCases>4969</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-09</date>
+    <hospitalCases>5227</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-08</date>
+    <hospitalCases>5408</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-07</date>
+    <hospitalCases>5429</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-06</date>
+    <hospitalCases>5630</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-05</date>
+    <hospitalCases>5840</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-04</date>
+    <hospitalCases>5995</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-03</date>
+    <hospitalCases>6252</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-02</date>
+    <hospitalCases>6446</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-06-01</date>
+    <hospitalCases>6630</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-31</date>
+    <hospitalCases>6578</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-30</date>
+    <hospitalCases>6611</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-29</date>
+    <hospitalCases>6902</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-28</date>
+    <hospitalCases>7205</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-27</date>
+    <hospitalCases>7466</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-26</date>
+    <hospitalCases>7789</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-25</date>
+    <hospitalCases>7884</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-24</date>
+    <hospitalCases>7857</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-23</date>
+    <hospitalCases>7854</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-22</date>
+    <hospitalCases>8219</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-21</date>
+    <hospitalCases>8256</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-20</date>
+    <hospitalCases>8503</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-19</date>
+    <hospitalCases>8903</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-18</date>
+    <hospitalCases>9088</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-17</date>
+    <hospitalCases>9113</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-16</date>
+    <hospitalCases>9094</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-15</date>
+    <hospitalCases>9486</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-14</date>
+    <hospitalCases>9689</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-13</date>
+    <hospitalCases>10073</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-12</date>
+    <hospitalCases>10325</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-11</date>
+    <hospitalCases>10641</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-10</date>
+    <hospitalCases>10414</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-09</date>
+    <hospitalCases>10683</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-08</date>
+    <hospitalCases>10674</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-07</date>
+    <hospitalCases>11143</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-06</date>
+    <hospitalCases>11661</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-05</date>
+    <hospitalCases>12143</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-04</date>
+    <hospitalCases>12474</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-03</date>
+    <hospitalCases>12588</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-02</date>
+    <hospitalCases>12744</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-05-01</date>
+    <hospitalCases>13031</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-30</date>
+    <hospitalCases>13455</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-29</date>
+    <hospitalCases>13830</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-28</date>
+    <hospitalCases>14089</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-27</date>
+    <hospitalCases>14769</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-26</date>
+    <hospitalCases>14671</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-25</date>
+    <hospitalCases>14776</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-24</date>
+    <hospitalCases>15314</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-23</date>
+    <hospitalCases>15931</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-22</date>
+    <hospitalCases>16497</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-21</date>
+    <hospitalCases>17074</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-20</date>
+    <hospitalCases>17333</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-19</date>
+    <hospitalCases>17455</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-18</date>
+    <hospitalCases>17442</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-17</date>
+    <hospitalCases>17303</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-16</date>
+    <hospitalCases>18258</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-15</date>
+    <hospitalCases>18530</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-14</date>
+    <hospitalCases>19232</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-13</date>
+    <hospitalCases>19370</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-12</date>
+    <hospitalCases>19849</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-11</date>
+    <hospitalCases>19493</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-10</date>
+    <hospitalCases>19617</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-09</date>
+    <hospitalCases>19495</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-08</date>
+    <hospitalCases>19337</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-07</date>
+    <hospitalCases>18957</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-06</date>
+    <hospitalCases>18256</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-05</date>
+    <hospitalCases>17779</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-04</date>
+    <hospitalCases>16587</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-03</date>
+    <hospitalCases>14729</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-02</date>
+    <hospitalCases>13255</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-04-01</date>
+    <hospitalCases>13108</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-03-31</date>
+    <hospitalCases>12205</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-03-30</date>
+    <hospitalCases>10732</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-03-29</date>
+    <hospitalCases>9237</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-03-28</date>
+    <hospitalCases>8019</hospitalCases>
+  </data>
+  <data>
+    <areaType>overview</areaType>
+    <areaName>United Kingdom</areaName>
+    <areaCode>K02000001</areaCode>
+    <date>2020-03-27</date>
+    <hospitalCases>7043</hospitalCases>
+  </data>
+  <pagination>
+    <current>/v1/data?filters=areaType=overview&amp;structure=%7B%22areaType%22:%22areaType%22,%22areaName%22:%22areaName%22,%22areaCode%22:%22areaCode%22,%22date%22:%22date%22,%22hospitalCases%22:%22hospitalCases%22%7D&amp;format=xml&amp;page=1</current><next xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><previous xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <first>/v1/data?filters=areaType=overview&amp;structure=%7B%22areaType%22:%22areaType%22,%22areaName%22:%22areaName%22,%22areaCode%22:%22areaCode%22,%22date%22:%22date%22,%22hospitalCases%22:%22hospitalCases%22%7D&amp;format=xml&amp;page=1</first>
+    <last>/v1/data?filters=areaType=overview&amp;structure=%7B%22areaType%22:%22areaType%22,%22areaName%22:%22areaName%22,%22areaCode%22:%22areaCode%22,%22date%22:%22date%22,%22hospitalCases%22:%22hospitalCases%22%7D&amp;format=xml&amp;page=1</last>
+  </pagination>
+</Document>

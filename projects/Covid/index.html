@@ -1,0 +1,490 @@
+
+<html>
+    <head>
+      <style>
+      body {
+        margin:2%;
+        padding:2%;
+        background-color: lightblue;
+      }
+      table{
+         width:70%;
+         table-layout : fixed;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+         font-size: 34px;
+      }
+      select{
+         font-size: 45px;
+         height: 60px;
+         width: 600px;
+         -webkit-appearance: menulist-button;
+      }
+      button:active{
+          background:red;
+      }
+      hr{
+        border-top: 5px solid black;
+      }
+      </style>
+      <title >Covid 19 Cases in the UK</title>
+      <h1 style = "text-align: center; margin-top: 2%;  font-size: 80px;">COVID19 IN UK</h1>
+      <p style = "text-align: right; margin-right: 10%; font-size: 20px;">**All data in the year 2020  </p>
+      <p style = "text-align: right; margin-right: 10%; font-size: 20px;">**Data is provided by the UK government </p>
+      <hr/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script language="javascript" type="text/javascript">
+            function dynamicdropdown(listindex)
+            {
+                document.getElementById("subcategory").length = 0;
+                if(listindex=="allMonthly"){
+                }else{
+                  for( i =1; i <12;i++){
+                      document.getElementById("subcategory").options[i]=new Option(""+i);
+                  }
+                }
+                if(listindex=="dateSpecific"){
+                    document.getElementById("dateSpecificComponent").style.display = "block";
+                }else{
+                    document.getElementById("dateSpecificComponent").style.display = "none";
+                }
+                return true;
+            }
+
+            function dateFromMonth(){
+              var select = document.getElementById("dateSelected");
+              var length = select.options.length;
+              for (i = length-1; i >= 0; i--) {
+                select.options[i] = null;
+              }
+              var month = document.getElementById("subcategory").value;
+              console.log(month);
+              if(month=="4"||month=="6"||month=="9"||month=="11"){
+                for( i =1; i <31;i++){
+                    document.getElementById("dateSelected").options[i-1]=new Option(""+i);
+                }
+              }else if(month == "2"){
+                for( i =1; i <30;i++){
+                    document.getElementById("dateSelected").options[i-1]=new Option(""+i);
+                }
+              }else{
+                for( i =1; i <32;i++){
+                    document.getElementById("dateSelected").options[i-1]=new Option(""+i);
+                }
+              }
+            }
+            var currentTableHTML;
+            var isSortedTable;
+
+            function reloadAndQuery(){
+              getResult();
+              if( String(document.getElementById("queryType").value)=="Without Query"){
+                return;
+              }
+              setTimeout( function(){
+                topQueryTable();},1100);
+            }
+            function topQueryTable(){
+              var tempColumn=1;
+              var category = String(document.getElementById("queryType").value);
+              console.log(document.getElementById("queryType").value);
+              switch(category){
+                case "Cases":
+                  tempColumn=1;
+                  break;
+                case "Test Passed":
+                  tempColumn=2;
+                  console.log("YO");
+                  break;
+                case "Test Capacity":
+                  tempColumn=3;
+                  break;
+                case "Patients in Hospital":
+                  tempColumn=4;
+                  break;
+              }
+              var column = tempColumn;
+              console.log("ANSER"+column);
+              var table =  document.getElementById("table");
+              if(!table.rows.length<=10){
+                var resultArray=[];
+                var indexResultArray=[];
+                for(i = 1; i < table.rows.length; ++i){
+                  try{
+                    var x = 0+parseInt(table.rows[i].cells[column].innerHTML);
+                    console.log(x);
+                    if(Number.isInteger(x)){
+                      resultArray.push(x);
+                    }
+                  }catch{
+                    console.log("NA");
+                  }
+                }
+
+                resultArray.sort(function(a, b){return a - b});
+                var smallIndex =resultArray.length-10;
+                if(resultArray.length<10){
+                  smallIndex=0;
+                }
+                resultArray = resultArray.slice(smallIndex,resultArray.length);
+                console.log(resultArray.length);
+                for(i = 1; i < table.rows.length; ++i){
+                  try{
+                    //console.log(parseInt(table.rows[i].cells[column]));
+                    if(resultArray.includes(parseInt(table.rows[i].cells[column].innerHTML))){
+                      indexResultArray.push(i);
+                      console.log(i+"kaneof");
+                    }
+                  }catch{
+                    console.log("NVM");
+                  }
+                }
+
+                for( i = 1; i < table.rows.length; ++i) {
+                  if(!(indexResultArray.includes(i))){
+                    table.rows[i].style.display =  'none';
+                  }
+                }
+              }
+            }
+       </script>
+    </head>
+    <title>Dynamic Drop Down List</title>
+    <body>
+      <div style = "text-align: center;">
+
+        <div class="category_div" id="category_div" style= "font-size: 45px;">Data:
+            <select name="category"  id="category" style= "margin-top: 1%; " onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+              <option value="allMonthly" selected>All Months</option>
+              <option value="monthly">Specific Month</option>
+              <option value="averageMonthly">Average Date in a Month</option>
+              <option value="totalMonthly">Total of a Month</option>
+              <option value="dateSpecific">Specific Date</option>
+            </select>
+        </div>
+        <div class="sub_category_div" id="sub_category_div" style= "font-size: 45px;">Month:
+              <select name="subcategory" id="subcategory" style= "margin-top: 1%;font-size: 45px;"onchange="javascript: dateFromMonth();">
+              </select>
+        </div>
+        <div class="dateSpecificComponent" id="dateSpecificComponent" style="display: none; font-size: 45px;" >
+          <div class="dateSelectedPane" id="dateSelectedPane" style= "margin-top: 1%; font-size: 45px;">Date:
+              <select name="dateSelected"  id="dateSelected" style= "font-size: 45px;">
+              </select>
+          </div>
+          <div class="dateTypePane" id="dateTypePane">Query:
+              <select name="dateTypeSelected"  id="dateTypeSelected" style= "margin-top: 1%;font-size: 45px;">
+                <option value="On">On</option>
+                <option value="Before">Before</option>
+                <option value="After">After</option>
+              </select>
+          </div>
+      </div>
+        <button type="button" onclick="getButtonResult();" style= "margin-top: 1.5%;margin-bottom: 1.5%;font-size: 45px;">Search-></button>
+        <hr/>
+        <div id = "resultShown" style="display: none;">
+        <h2 style="margin-top: 1%;margin-bottom: 1%;font-size: 80px;">RESULT<h2>
+        <hr/>
+        <div class="queryTypePane" id="queryTypePane" style= "font-size: 40px;">Choose Top Ten Of:
+            <select name="queryType"  id="queryType" style= "margin-top: 10px; margin-top: 10px; width: 500px;"onchange=reloadAndQuery()>
+              <option value="Without Query" selected>Without Query</option>
+              <option value="Cases" >Cases</option>
+              <option value="Test Passed" >Test Passed</option>
+              <option value="Test Capacity" >Test Capacity</option>
+              <option value="Patients in Hospital" >Patients in Hospital</option>
+            </select>
+
+        </div>
+        <br>
+
+
+
+        </div>
+        <!--<p id="try">sfsaf</p>-->
+        <table id="table" >
+          <tr></tr>
+        </table>
+
+
+
+<script>
+var monthSelected;
+var typeSelected;
+var dateSelected;
+var dateTypeSelected;
+var table;
+var maxLength;
+
+function getButtonResult(){
+  document.getElementById("queryType").selectedIndex = 0;
+  getResult();
+}
+
+function getResult(){
+
+  typeSelected = document.getElementById("category").value;
+  //document.getElementById("try").innerHTML = typeSelected;
+  monthSelected = document.getElementById("subcategory").value;
+  if(typeSelected!="allMonthly" &&monthSelected==""){
+    alert("Please select a month!");
+    return;
+  }
+
+  document.getElementById("resultShown").style.display = "block";
+  dateSelected= document.getElementById("dateSelected").value;
+  dateTypeSelected= document.getElementById("dateTypeSelected").value;
+
+  if(typeSelected=="averageMonthly"||typeSelected=="totalMonth"){
+    isMonthTable(true);
+  }else{
+    isMonthTable(false);
+  }
+  //var table="<tr><th> Date/Month</th><th>Cases</th><th>Test Capacity</th><th>Patients in Hospital</th></tr>";
+   loadDoc("./cases.xml");
+   loadDoc("./testing.xml");
+   setTimeout( function(){
+     loadDoc("./hospital.xml");
+     //document.getElementById("optionShown").style.display = "block";
+     currentTableHTML = document.getElementById("table").innerHTML;
+     isSortedTable = false;
+   },1000);
+
+}
+
+function isMonthTable(x){
+    if(x){
+      table="<tr><th>Month</th><th>Cases</th><th>Test Passed</th><th>Test Capacity</th><th>Patients in Hospital</th></tr>";
+      document.getElementById("table").innerHTML = table;
+    }else{
+    table="<tr><th>Date</th><th>Cases</th><th>Test Passed</th><th>Test Capacity</th><th>Patients in Hospital</th></tr>";
+    document.getElementById("table").innerHTML = table;
+  }
+}
+
+function loadDoc(filename) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        switch(typeSelected){
+          case "monthly":
+            getMonthly(this,filename);
+            break;
+          case "averageMonthly":
+            getAverageOrTotalMonthly(this,filename,false);
+            break;
+          case "totalMonthly":
+            getAverageOrTotalMonthly(this,filename,true);
+            break;
+          case "dateSpecific":
+            getMonthly(this,filename);
+            break;
+          case "allMonthly":
+            getMonthly(this,filename);
+            break;
+        }
+      }
+    };
+    xhttp.open("GET", filename,true );
+    xhttp.send();
+}
+
+function getAverageOrTotalMonthly(xml,filename,isGetTotal) {
+  var xmlDoc = xml.responseXML;
+  var x = xmlDoc.getElementsByTagName("data");
+  var table1 = document.getElementById("table");
+  var secondAccumulator = 0;
+  var accumulator =0;
+  var size =0
+  var secondSize =0;
+  for (i = 0; i <x.length; i++) {
+    if((x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue.split("-")[1]) ==monthSelected || (x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue.split("-")[1]) ==parseInt(monthSelected)){
+      switch(filename){
+        case "./cases.xml":
+          accumulator += parseInt(x[i].getElementsByTagName("newCasesByPublishDate")[0].childNodes[0].nodeValue);
+          size+=1;
+          break;
+        case "./testing.xml":
+          try{
+            accumulator += parseInt(x[i].getElementsByTagName("newPCRTestsByPublishDate")[0].childNodes[0].nodeValue);
+            size+=1;
+          }catch{
+            accumulator +=0;
+          }
+          try{
+            secondAccumulator += parseInt(x[i].getElementsByTagName("plannedPCRCapacityByPublishDate")[0].childNodes[0].nodeValue);
+            secondSize+=1;
+          }catch{
+            secondAccumulator +=0;
+          }
+          break;
+        case "./hospital.xml":
+          try{
+            accumulator += parseInt(x[i].getElementsByTagName("hospitalCases")[0].childNodes[0].nodeValue);
+            size+=1;
+          }catch{
+            accumulator +=0;
+          }
+          break;
+      }
+    }
+  }
+  if(filename =="./cases.xml"){
+    var row = table1.insertRow(1);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    var cell5 = row.insertCell(4);
+    if(monthSelected.length<=1){
+      cell1.innerHTML = "2020-0"+monthSelected;
+    }else{
+      cell1.innerHTML = "2020-"+monthSelected;
+    }
+    if(isGetTotal){
+      cell2.innerHTML = accumulator.toFixed(0);
+    }else{
+    cell2.innerHTML = (accumulator/size).toFixed(0);
+    }
+  }else if(filename =="./testing.xml"){
+    var cell  = table1.rows[1].cells[2];
+    var cell1  = table1.rows[1].cells[3];
+    if(isGetTotal){
+      cell.innerHTML = accumulator.toFixed(0);
+      cell1.innerHTML = secondAccumulator.toFixed(0);
+    }else{
+      cell.innerHTML= (accumulator/size).toFixed(0);
+      cell1.innerHTML= (secondAccumulator/secondSize).toFixed(0);
+    }
+  }else{
+    var cell = table1.rows[1].cells[4];
+    if(isGetTotal){
+      cell.innerHTML= accumulator.toFixed(0);
+    }else{
+      cell.innerHTML= (accumulator/size).toFixed(0);
+    }
+  }
+}
+
+function checkRequirement(inputDate){
+  switch(typeSelected){
+    case "dateSpecific":
+      switch(dateTypeSelected){
+        case "On":
+          if((inputDate.split("-")[1]==monthSelected||parseInt(monthSelected)==inputDate.split("-")[1])&&
+            (inputDate.split("-")[2]==dateSelected||parseInt(dateSelected)==inputDate.split("-")[2]))
+          {
+            return true;
+          }else{
+            return false;
+          }
+          break;
+        case "Before":
+        if(inputDate.split("-")[1]<parseInt(monthSelected)||
+          ((inputDate.split("-")[1]==monthSelected||inputDate.split("-")[1]==parseInt(monthSelected))&&
+          (inputDate.split("-")[2]<parseInt(dateSelected))))
+          {
+            return true;
+          }else{
+            return false;
+          }
+          break;
+        case "After":
+        if((inputDate.split("-")[1]>monthSelected||inputDate.split("-")[1]>parseInt(monthSelected))||
+          ((inputDate.split("-")[1]==monthSelected||inputDate.split("-")[1]==parseInt(monthSelected))&&
+          (inputDate.split("-")[2]>dateSelected||inputDate.split("-")[2]>parseInt(dateSelected))))
+          {
+            return true;
+          }else{
+            return false;
+          }
+          break;
+    }
+    break;
+    case "monthly":
+      if(monthSelected==inputDate.split("-")[1]||parseInt(monthSelected)==inputDate.split("-")[1]){
+        return true;
+      }else{
+        return false;
+      }
+      break;
+    case "allMonthly":
+        return true;
+        break;
+  }
+
+}
+
+function getMonthly(xml,filename) {
+    var xmlDoc = xml.responseXML;
+    var x = xmlDoc.getElementsByTagName("data");
+    var table1 = document.getElementById("table");
+    var indicator = 0;
+    for (i = 0; i <x.length; i++) {
+      if(checkRequirement(x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue)){
+        if(filename =="./cases.xml"){
+          var row = table1.insertRow(1);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          var cell3 = row.insertCell(2);
+          var cell4 = row.insertCell(3);
+          var cell5 = row.insertCell(4);
+          cell1.innerHTML = x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
+          cell2.innerHTML = x[i].getElementsByTagName("newCasesByPublishDate")[0].childNodes[0].nodeValue;
+          cell3.innerHTML = "N/A";
+          cell4.innerHTML = "N/A";
+          cell5.innerHTML = "N/A";
+        }
+        else if(filename=="./testing.xml"){
+          indicator+=1;
+          var maxPosition = table1.rows.length;
+          var inc =maxPosition-indicator;
+          if(x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue!=table1.rows[inc].cells[0].innerHTML){
+            i-=1;
+            var value = "N/A";
+            var cell  = table1.rows[inc].cells[2];
+            cell.innerHTML =value;
+            var cell1  = table1.rows[inc].cells[3];
+            cell1.innerHTML =value;
+          }else{
+            try{
+              var value = x[i].getElementsByTagName("newPCRTestsByPublishDate")[0].childNodes[0].nodeValue;
+            }catch{
+              var value = "N/A";
+            }
+            try{
+              var plannedValue = x[i].getElementsByTagName("plannedPCRCapacityByPublishDate")[0].childNodes[0].nodeValue;
+            }catch{
+              var plannedValue ="N/A";
+            }
+            var maxPosition = table1.rows.length;
+            var cell  = table1.rows[maxPosition-indicator].cells[2];
+            var cell1  = table1.rows[maxPosition-indicator].cells[3];
+            cell.innerHTML=value;
+            cell1.innerHTML=plannedValue;
+          }
+        }else{
+          indicator+=1;
+          if(x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue!=table1.rows[table1.rows.length-indicator].cells[0].innerHTML){
+            i-=1;
+            var value = "N/A";
+            var cell  = table1.rows[table1.rows.length-indicator].cells[4];
+            cell.innerHTML =value;
+          }else{
+            try{
+              var value = x[i].getElementsByTagName("hospitalCases")[0].childNodes[0].nodeValue
+            }catch{
+              var value = "N/A";
+            }
+            var cell  = table1.rows[table1.rows.length-indicator].cells[4];
+            cell.innerHTML=value;
+          }
+        }
+      }
+    }
+}
+
+</script>
+
+      </div>
+    </body>
+</html>
