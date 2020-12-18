@@ -47,13 +47,31 @@
 
 
 <div class="flex-container7">
-<div>
-      <img src="newPic.jpg" style="width:700px;  border-top: 50px solid #8C92AC; border-bottom: 50px solid #8C92AC; border-right: 200px solid#8C92AC;border-left: 200px solid #8C92AC; ">
+<div class = "container">
+      <img  src="newPic.jpg" style="width:500px;  border-top: 50px solid #8C92AC; border-bottom: 50px solid #8C92AC; border-right: 200px solid#8C92AC;border-left: 200px solid #8C92AC; ">
+      <div class="centered"><div id="type_text" style ="font-size:40px; color:black	;word-spacing: 43px;"></div></p></div>
 </div>
   </div>
   <br>
   <br>
   <br>
+
+<script>
+var myText = 'I S S A C T O';
+var myArray = myText.split("");
+var loopTimer;
+function frameLooper() {
+if(myArray.length > 0) {
+document.getElementById("type_text").innerHTML += myArray.shift();
+} else {
+clearTimeout(loopTimer);
+return false;
+}
+loopTimer = setTimeout('frameLooper()',120);
+}
+frameLooper();
+</script>
+
 
 
   <div class="flex-container11"  id = "sectionAbout">
@@ -61,13 +79,12 @@
   </div>
 <div class="flex-container2">
 
-
   <div>
-    <img src="king-s-college.jpg" style=" border-radius: 50%;width:400px;height:400px;">
+
+    <img src="king-s-college.jpg" style=" border-radius: 50%;width:300px;height:300px;">
 
   </div>
   <div>
-    <br>
     <br>
     <p4>
       <br>
@@ -77,13 +94,11 @@
 </div>
 <div class="flex-container2">
   <div>
-    <br>
-    <br>
-    <br>
+    <br><br>
     I graduated from Diocesan Boys' School in 2019. I am very grateful for the things that I learnt from my teachers, counsellors and peers at this school.
   </div>
   <div>
-    <img src="dbs.jpg" style=" border-radius: 50%; width:400px;height:400px;">
+    <img src="dbs.jpg" style=" border-radius: 50%; width:300px;height:300px;">
   </div>
 </div>
 
@@ -141,7 +156,7 @@
           <p style="font-size:30px;", style= "text-align:center;">2. Covid 19 Query Page using Javascript and XML files
           </p>
        <a href="https://issacto.github.io/projects/Covid19/">
-        <img src="projects/Covid19/CovidImage.png" style="border-radius: 3%;width:1000px;height: 600px">
+        <img src="projects/Covid19/CovidImage.png" style="border-radius: 3%;width:800px;height: 600px">
       </a>
       <br>
         Click the image to try it out!
@@ -185,14 +200,9 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/o0VNaXmYo2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
     <br>
-    <br>
           Singing in the school choir has long been one of my extracurricular activities.
     <br> During high school, I sang in the school senior choir, senior mixed choir and madrigal. I am really glad that during form five,
-    I got the golden opportunity to serve as the vice chairman of the school's intermediate choir. <br> The link above would lead you to 2018 Homecoming Concert, where I conducted the intermediate choir. <br> Please feel free to click the
-    button and take a look at it;)
-
-    <br> I am now a chorister at King's College London and I really hope to rejoin the choir after the pandemic.
-
+    I got the golden opportunity to serve as the vice chairman of the school's intermediate choir.
   </div>
 </div>
 
@@ -210,13 +220,16 @@
 
   <div>
     <p style="font-size:40px;", style= "text-align:center;">Sports</p>
-    <img src="TaekwandoPhoto.jpg" style=" border-radius: 3%;width:1100px;height:auto;">
+    <img src="TaekwandoPhoto.jpeg" style=" border-radius: 3%;width:1000px;height:auto;">
     <br>
     I have been passionate about Taekwando since primary school and am now a second-stage black belt holder. In 2018 Decemeber, I won the Tuen Mun Yan Ai Taekwando Competition. Although I did not play for my
     university's team in my first year, I look forward to joining the team in the coming years.
     <br>
   </div>
 </div>
+<br>
+<br>
+<br><br>
 <!--  Table Ends here-->
 
 <!--  Youtube Starts here-->
