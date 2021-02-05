@@ -1,3 +1,3 @@
 # issacto.github.io
 My personal  website;)
-[CLick Here](https://issacto.github.io)
+[Click Here](https://issacto.github.io)
