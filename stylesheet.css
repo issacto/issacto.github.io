@@ -86,7 +86,7 @@ img {
 .flex-container2 {
   display: flex;
   justify-content: center;
-  height: 440px;
+  height: 400px;
 }
 .flex-container2 > div {
   color: white;
